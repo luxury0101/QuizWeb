@@ -1,0 +1,35 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+  color: #17211b;
+  background: #f5f4ee;
+  font-synthesis: none;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #f5f4ee;
+}
+
+.hero {
+  color: #fff;
+  background: linear-gradient(120deg, #173f35, #246b57);
+}
+
+.hero .small { color: #b9dfd3; letter-spacing: .14em; }
+.hero .lead { color: #dceee8; }
+
+.card, .form-control, .btn { border-radius: .8rem; }
+.form-control:focus { border-color: #26745e; box-shadow: 0 0 0 .25rem rgba(38, 116, 94, .16); }
+.btn-primary { --bs-btn-bg: #22634f; --bs-btn-border-color: #22634f; --bs-btn-hover-bg: #194d3d; --bs-btn-hover-border-color: #194d3d; }
+.text-bg-primary { background-color: #22634f !important; }
+
+.book-card {
+  border-top: 4px solid #d7a744 !important;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.book-card:hover { transform: translateY(-3px); box-shadow: 0 .75rem 1.5rem rgba(20, 45, 37, .12) !important; }
+.book-id { color: #7d6a3a; font-weight: 700; letter-spacing: .08em; }
+.empty-state { border: 2px dashed #c9cec8; background: rgba(255, 255, 255, .5); }
+
